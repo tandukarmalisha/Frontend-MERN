@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(209, 209, 241);
+}
+header{
+    /*height: 150px; */
+    background-color: rgb(48, 149, 149);
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu > li {
+    padding: 20px 20px;
+    
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: rgb(15, 15, 63);
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    background-color: rgb(109, 190, 190);
+    list-style: none;
+    min-width: 200px;
+
+}
